@@ -55,9 +55,11 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
-    // Material icons
+    // Material icons to get all icons
     implementation(libs.androidx.material.icons.core) // Material Icons Core
     implementation(libs.androidx.material.icons.extended)// Material Icons Extended
+    // viewmodel() get get
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.androidx.ui)
